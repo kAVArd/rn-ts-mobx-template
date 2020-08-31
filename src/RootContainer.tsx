@@ -5,17 +5,13 @@ import {
   StyleSheet,
   ScrollView,
   View,
-  Text,
   StatusBar,
   TextInput,
 } from 'react-native';
 
 import {
   Header,
-  LearnMoreLinks,
   Colors,
-  DebugInstructions,
-  ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
 import { Stores } from './store/RootStore';
@@ -61,19 +57,9 @@ export default class RootContainer extends React.PureComponent<Props, {}> {
 const styles = StyleSheet.create({
   scrollView: {
     backgroundColor: Colors.lighter,
-    // height: '100%',
-    borderWidth: 1,
-    borderColor: 'green',
   },
   body: {
     backgroundColor: Colors.white,
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderWidth: 1,
-    borderColor: 'red',
-    height: '100%',
   },
   inputContainer: {
     width: '100%',
